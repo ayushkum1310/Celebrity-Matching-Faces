@@ -1,10 +1,8 @@
-Celebrity Matching Faces
-==============================
+# Celebrity Matching Faces
 
-na
+This project aims to develop a machine learning system capable of matching celebrity faces with high accuracy. The system processes raw image data, extracts features, trains various models, and evaluates their performance. The goal is to create a reliable and efficient tool for face recognition and matching in diverse datasets.
 
-Project Organization
-------------
+## Project Organization
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
@@ -51,7 +49,55 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
+## Getting Started
 
---------
+### Prerequisites
 
+- Python 3.8 or higher
+- Required Python packages listed in `requirements.txt`
+
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/ayushkum1310/Celebrity-Matching-Faces.git
+    cd Celebrity-Matching-Faces
+    ```
+
+2. Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+### Usage
+
+1. Prepare the data:
+    ```bash
+    make data
+    ```
+
+2. Train the model:
+    ```bash
+    make train
+    ```
+
+3. Run the application:
+    ```bash
+    python app.py
+    ```
+
+## Contributing
+
+Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) for more details.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Thanks to all the contributors and developers who made this project possible.
+
+Made with ❤️ by Ayush Kumar  
+Data Scientist
 
