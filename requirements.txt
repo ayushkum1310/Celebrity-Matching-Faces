@@ -2,7 +2,7 @@
 
 mtcnn
 tensorflow
-
+streamlit
 keras-vggface
 keras_applications
 openvino==2024.2.0
